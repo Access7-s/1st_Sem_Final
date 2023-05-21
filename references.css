@@ -1,3 +1,11 @@
+html,body{
+    background-image: url(blue.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+
+}
+
 img{
     object-fit: contain;
     float: left;
@@ -17,4 +25,10 @@ button{
 button:hover{
     background-color: #D61355;
     color:white;
+}
+span{
+    background-color: black;
+    color:white;
+    font-weight:300;
+    
 }
