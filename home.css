@@ -62,9 +62,7 @@
         }
         /*mobile devices */
 @media (min-width:320px) and (max-width:480px){
-    .parent{
-           display: block;
-        }
+
        h1{
        font-size: 20px;
        color: blue;
@@ -72,16 +70,11 @@
        background-color: black;
        text-align: center;
     }
-    .daughter img{
-       width: 100%;
-       height: auto;
-       
-   }
+
    }
    /*tablet devices*/
    @media (min-width: 481px) and (max-width:768px){
        .parent{
-           display: block;
         }
        h1{
            font-size: 20px;
@@ -90,16 +83,12 @@
            background-color: black;
            text-align: center;
         }
-        .daughter img{
-           width: 100%;
-           height: auto;
-           
-       }
+
    }
    /*laptop devices*/
    @media (min-width:769px) and (max-width: 1024px){
        .parent{
-           display: block;
+       
         }
        h1{
            font-size: 20px;
@@ -108,10 +97,6 @@
            background-color: black;
            text-align: center;
         }
-        .daughter img{
-           width: 100%;
-           height: auto;
-           
-       }
+ 
    }
         

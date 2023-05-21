@@ -59,3 +59,39 @@ p{
     font-weight: bold;
     font-family: cursive;
 }
+        /*mobile devices */
+        @media (min-width:320px) and (max-width:480px){
+
+            h1{
+            font-size: 20px;
+            color: blue;
+            width: 100%;
+            background-color: black;
+            text-align: center;
+         }
+     
+        }
+        /*tablet devices*/
+        @media (min-width: 481px) and (max-width:768px){
+
+            h1{
+                font-size: 20px;
+                color: red;
+                width: 100%;
+                background-color: black;
+                text-align: center;
+             }
+     
+        }
+        /*laptop devices*/
+        @media (min-width:769px) and (max-width: 1024px){
+
+            h1{
+                font-size: 20px;
+                color: darkmagenta;
+                width: 100%;
+                background-color: black;
+                text-align: center;
+             }
+      
+        }
