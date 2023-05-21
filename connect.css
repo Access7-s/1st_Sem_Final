@@ -27,12 +27,17 @@
             text-decoration: none;
             color:black;
             font-weight: bold;
+            
+           
         }
         img{
-            object-fit: cover;
+            object-fit: contain;
             float: left;
-            width: 20%;
-            padding: 15px;
+            width: 300px;
+            padding: 20px;
+            height: 400px;
+            flex-direction: row;
+            
     
         }
         a:hover{
@@ -51,4 +56,57 @@
         button:hover{
             background-color: #D61355;
             color:white;
+        }
+        .insta{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+        .snap{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+        .reddit{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+        .discord{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+        .linkedin{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+        .github{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+        .email{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        
+        }
+        .space{
+            padding: 12px;
         }
