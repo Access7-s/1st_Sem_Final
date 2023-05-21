@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
         html,body{
-          
-            overflow: hidden;
             font-family:'Roboto', sans-serif;
             background-color: #F9DBBB;
         }
@@ -35,14 +33,47 @@
             background-color: #D61355;
             color:white;
         }
+        img{
+            object-fit: contain;
+            float: left;
+            width: 300px;
+            padding: 20px;
+            height: 400px;
+            flex-direction: row;
+            display: block;
+        }
+        .herald{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+        .prasadi{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+        .school{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+        
+
+
                 /*mobile devices */
 @media (min-width:320px) and (max-width:480px){
 
     h1{
-    font-size: 20px;
+    font-size: 10px;
     color: blue;
     width: 100%;
-    background-color: black;
+    background-color: white;
     text-align: center;
  }
 
@@ -51,10 +82,10 @@
 @media (min-width: 481px) and (max-width:768px){
 
     h1{
-        font-size: 20px;
+        font-size: 10px;
         color: red;
         width: 100%;
-        background-color: black;
+        background-color: white;
         text-align: center;
      }
 
@@ -63,10 +94,10 @@
 @media (min-width:769px) and (max-width: 1024px){
 
     h1{
-        font-size: 20px;
+        font-size: 10px;
         color: darkmagenta;
         width: 100%;
-        background-color: black;
+        background-color: white;
         text-align: center;
      }
 
