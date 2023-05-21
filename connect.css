@@ -37,9 +37,8 @@
             padding: 20px;
             height: 400px;
             flex-direction: row;
-            
-    
         }
+        
         a:hover{
             color: Red;
             text-decoration: underline;

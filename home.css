@@ -74,8 +74,7 @@
    }
    /*tablet devices*/
    @media (min-width: 481px) and (max-width:768px){
-       .parent{
-        }
+
        h1{
            font-size: 20px;
            color: red;
@@ -87,9 +86,7 @@
    }
    /*laptop devices*/
    @media (min-width:769px) and (max-width: 1024px){
-       .parent{
-       
-        }
+
        h1{
            font-size: 20px;
            color: darkmagenta;

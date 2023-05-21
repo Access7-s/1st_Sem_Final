@@ -1,0 +1,20 @@
+img{
+    object-fit: contain;
+    float: left;
+    width: 300px;
+    padding: 20px;
+    height: 400px;
+    flex-direction: row;
+}
+button{
+    border-radius: 20px;
+    height: 30px;
+    width:100px;
+    border-style: none;
+    background-color: #F48484;
+    font-weight: 600;
+}
+button:hover{
+    background-color: #D61355;
+    color:white;
+}
