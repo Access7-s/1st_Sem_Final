@@ -67,7 +67,7 @@
        font-size: 20px;
        color: blue;
        width: 100%;
-       background-color: #DBDFEA;
+       background-color: black;
        text-align: center;
     }
 
@@ -79,7 +79,7 @@
            font-size: 20px;
            color: red;
            width: 100%;
-           background-color:rgb(109, 99, 125);
+           background-color: black;
            text-align: center;
         }
 
@@ -91,7 +91,7 @@
            font-size: 20px;
            color: darkmagenta;
            width: 100%;
-           background-color: #DBDFEA;
+           background-color: black;
            text-align: center;
         }
  
