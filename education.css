@@ -22,4 +22,16 @@
             margin-top: 20px;
             
         }
+        button{
+            border-radius: 20px;
+            height: 30px;
+            width:100px;
+            border-style: none;
+            background-color: #E57C23;
+            font-weight: 600;
+        }
+        button:hover{
+            background-color: #D61355;
+            color:white;
+        }
         
