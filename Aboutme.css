@@ -74,13 +74,22 @@ p{
         /*tablet devices*/
         @media (min-width: 481px) and (max-width:768px){
 
-            h1{
-                font-size: 20px;
-                color: red;
-                width: 100%;
-                background-color: black;
-                text-align: center;
-             }
+            html,body{
+                background-color: blue;
+            }
+           h1{
+               font-size: 20px;
+               color: rgb(143, 109, 119);;
+               width: 100%;
+               background-color: black;
+               text-align: center;
+            }
+            span{
+                color: azure;
+            }
+            button{
+                background-color: grey;
+            }
      
         }
         /*laptop devices*/
