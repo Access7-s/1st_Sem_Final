@@ -30,6 +30,9 @@
             
            
         }
+        h1{
+            text-align: center;
+        }
         img{
             object-fit: contain;
             float: left;

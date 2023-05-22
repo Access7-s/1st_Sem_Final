@@ -74,13 +74,21 @@
    }
    /*tablet devices*/
    @media (min-width: 481px) and (max-width:768px){
-
+        html,body{
+            background-color: blue;
+        }
        h1{
            font-size: 20px;
-           color: red;
+           color: rgb(143, 109, 119);;
            width: 100%;
            background-color: black;
            text-align: center;
+        }
+        span{
+            color: azure;
+        }
+        button{
+            background-color: grey;
         }
 
    }
