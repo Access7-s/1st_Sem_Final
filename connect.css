@@ -32,6 +32,11 @@
         }
         h1{
             text-align: center;
+            padding: 12px;
+            color: crimson;
+            font-size: x-large;
+            font-style: oblique;
+            text-decoration: underline;
         }
         img{
             object-fit: contain;
@@ -86,6 +91,7 @@
             align-items: center;
             flex-wrap: wrap;
             margin-top: 20px;
+            padding: 10px;
         }
         .linkedin{
             display: flex;
